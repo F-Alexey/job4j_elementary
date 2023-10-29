@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Calculator {
     public static void autoCalc(int a, int b, String str) {
         int result = 0;
-            switch(str) {
+            switch (str) {
                 case "+":
                     result = a + b;
                     break;
@@ -16,17 +16,18 @@ public class Calculator {
                     if (b == 0) {
                         System.out.println("You cant`t do that");
                         break;
-                    }
-                    else {
+                    } else {
                         result = a / b;
                         break;
                     }
+
                 case "*":
                     result = a * b;
                     break;
             }
         System.out.println(result);
     }
+
     public static void main() {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите число а ");
