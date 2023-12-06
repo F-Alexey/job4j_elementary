@@ -11,7 +11,7 @@ class MaxTest {
         int left = 1;
         int right = 2;
         int expected = 2;
-        int result = Max.max(left,right);
+        int result = Max.max(left, right);
         assertThat(result).isEqualTo(expected);
     }
 
@@ -20,7 +20,7 @@ class MaxTest {
         int left = 3;
         int right = 3;
         int expected = 3;
-        int result = Max.max(left,right);
+        int result = Max.max(left, right);
         assertThat(result).isEqualTo(expected);
     }
 
@@ -29,7 +29,7 @@ class MaxTest {
         int left = 4;
         int right = 1;
         int expected = 4;
-        int result = Max.max(left,right);
+        int result = Max.max(left, right);
         assertThat(result).isEqualTo(expected);
     }
 }
