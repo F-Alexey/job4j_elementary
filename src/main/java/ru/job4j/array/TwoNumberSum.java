@@ -5,15 +5,13 @@ public class TwoNumberSum {
         int i = 0;
         int j = array.length - 1;
         int[] result = new int[2];
-        while (i != array.length - 1) {
+        while (i < j) {
             if (array[i] + array[j] == target) {
                 result[0] = i;
                 result[1] = j;
                 return result;
-            }
-            if (i == j) {
+            } else if (array[i] + array[j] < target) {
                 i++;
-                j = array.length - 1;
             } else {
                 j--;
             }
