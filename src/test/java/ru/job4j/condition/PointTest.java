@@ -50,7 +50,7 @@ class PointTest {
     }
 
     @Test
-    void when000to202then3and46() {
+    void when000to202then2and82() {
         double expected = 2.82;
         Point first = new Point(0, 0, 0);
         Point second = new Point(2, 0, 2);
